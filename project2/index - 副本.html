@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TEST</title>
+<script type="text/javascript" src="./src/ol/ol.js">
+</script>
+	<style>
+	html, body { width: 100%; height: 100%; margin: 0; padding: 0; }
+	</style>
+	<script  type="text/javascript">
+	function init() {
+	  
+	  var center1 = OpenLayers.proj.fromLonLat([104.0775,30.65666667]);  
+	  
+	  var view = new OpenLayers.View({
+        center: center1,
+        zoom: 15
+      });
+	  var osm = new OpenLayers.Layer.OSM();
+	  
+	  var map = new OpenLayers.Map({
+        target: 'map',
+        view: view
+      });
+	map.addLayer(osm);
+	}  
+	</script>
+	
+  </head>
+<body onload="init()">
+<div id="map" style="width: 100%;
+height: 100%;">
+</div>
+</body>
+</html>

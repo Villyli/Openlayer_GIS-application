@@ -1,0 +1,49 @@
+#hospital {
+		width: 64px;
+        height: 60px;
+		position: relative;
+		right: 32px;
+		bottom:32px;
+      }
+#hospitaltext {
+        text-decoration: none;
+        color: red;
+        font-size: 11pt;
+        font-weight: bold;
+        text-shadow: black 0.1em 0.1em 0.2em;
+		position: relative;
+		right: 50%;
+      }
+#school {
+		width: 70px;
+        height: 47px;
+		position: relative;
+		right: 30px;
+		bottom:20px;
+      }
+#schooltext {
+		text-decoration: none;
+        color: red;
+        font-size: 11pt;
+        font-weight: bold;
+        text-shadow: black 0.1em 0.1em 0.2em;
+		position: relative;
+		right: 50%;
+      }
+#myposition {
+		width: 55px;
+        height: 60px;
+		position: relative;
+		right: 27.5px;
+		bottom:30px;
+      }
+#mypositiontext {
+		text-decoration: none;
+        color: red;
+        font-size: 11pt;
+        font-weight: bold;
+        text-shadow: black 0.1em 0.1em 0.2em;
+		position: relative;
+		right: 50%;
+      }
+
