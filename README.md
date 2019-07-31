@@ -1,6 +1,7 @@
 # Openlayer_GIS-application
 
 project1 uses node.js and parcel to work, like
+
  npm start 
  npm run build
  
